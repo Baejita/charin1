@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from "react";
+import logoMFP from "./logoMFPWhite.png";
+const NavBar = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <nav className="navbar">
+      <div>
+        <img src={logoMFP} alt="logo" className="logo" />
+      </div>
+      <ul className="nav-links">
+        <li>
+          <a href="#">แจ้งปัญหา/รับเรื่องร้องเรียน</a>
+        </li>
+        <li>
+          <a href="#">สมัครสมาชิกพรรค</a>
+        </li>
+        <li>
+          <a href="#">อาสาก้าวไกลอยุธยา</a>
+        </li>
+        <li>
+          <a href="#">ติดตามข้อมูลข่าวสาร</a>
+        </li>
+      </ul>
+      <div>
+        <button className="button" type="charin">
+          สส.ชริน วงศ์พันธ์เที่ยง
+        </button>
+      </div>
+    </nav>
   );
-}
+};
 
-export default App;
+export default NavBar;

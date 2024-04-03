@@ -1,13 +1,100 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* 
+primary color: #ff6a00
+primary light color: #ff7f00
+secondary color:#003057
+tertinary color:#001d42
+
+grey light : rgb(236, 236, 236)
+grey dark : rgb(65,65,65)
+white : rgb(255, 255, 255)
+*/
+
+@import url(https://db.onlinewebfonts.com/c/a1e66a1c5503a31b2481bc976979f6a2?family=Anakotmai+Medium);
+
+/* @font-face {
+  font-family: myFirstFont;
+  src: url(https://db.onlinewebfonts.com/c/a1e66a1c5503a31b2481bc976979f6a2?family=Anakotmai+Medium);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+div {
+  font-family: myFirstFont;
+} */
+
+/* App.css */
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; 
+  font-family: "Anakotmai Medium";
+  
+  
+}
+
+body {
+margin: 0%;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-grey-dark-2);
+  /* background-image: linear-gradient(to right bottom,#ff7f00 , #ff6a00); */
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+  background-color: rgb(235, 235, 235);
+  
+  padding: 0 80px;
+}
+
+.logo {
+  height:9rem;
+ 
+  
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 4rem;
+  background-color: #ff6a00;
+  color: #fff;
+  font-size: 1.6rem;
+  
+}
+
+.navbar-logo img {
+  width: 50px;
+  /* Adjust size as needed */
+  height: auto;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  gap: 3rem;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #171717;
+  /* Change color on hover */
+}
+
+.button {
+  border: none; 
+font-family: "Anakotmai Medium";
+border-radius: 20px;
+  color: #ff6a00;
+  font-size: large;
+  box-shadow: 0 1rem 1.5rem rgba(33, 33, 33, 0.4);
+}
+
+.button:hover {
+  background-color:#fff ;
+  color:#ff6a00 ;
 }
