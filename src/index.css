@@ -26,6 +26,8 @@ html {
   box-sizing: border-box;
   font-size: 62.5%; 
   font-family: "Anakotmai Medium";
+  margin: 0;
+  padding: 0;
   
   
 }
@@ -91,10 +93,21 @@ font-family: "Anakotmai Medium";
 border-radius: 20px;
   color: #ff6a00;
   font-size: large;
-  box-shadow: 0 1rem 1.5rem rgba(33, 33, 33, 0.4);
+  box-shadow: 0 1rem 1.5rem rgba(84, 84, 84, 0.4);
 }
 
 .button:hover {
   background-color:#fff ;
   color:#ff6a00 ;
+}
+
+.hero-container {
+  background-image: linear-gradient(to right bottom, #fbf2e9, #ff6a00);
+  height: 600px;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+
 }
