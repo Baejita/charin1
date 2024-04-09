@@ -11,6 +11,7 @@ white : rgb(255, 255, 255)
 
 @import url(https://db.onlinewebfonts.com/c/a1e66a1c5503a31b2481bc976979f6a2?family=Anakotmai+Medium);
 
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /* @font-face {
   font-family: myFirstFont;
   src: url(https://db.onlinewebfonts.com/c/a1e66a1c5503a31b2481bc976979f6a2?family=Anakotmai+Medium);
@@ -21,11 +22,19 @@ div {
 } */
 
 /* App.css */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
 
 html {
   box-sizing: border-box;
   font-size: 62.5%; 
-  font-family: "Anakotmai Medium";
+  font-family: "Prompt",
+    sans-serif;
   margin: 0;
   padding: 0;
   
@@ -46,9 +55,19 @@ margin: 0%;
   
   padding: 0 80px;
 }
+h1{
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 1.2;
+ 
 
+}
 .logo {
   height:9rem;
+  transition: all .2s;
+    cursor: pointer;
+    
+  
  
   
 }
@@ -89,25 +108,128 @@ margin: 0%;
 
 .button {
   border: none; 
-font-family: "Anakotmai Medium";
+font-family: inherit;
 border-radius: 20px;
   color: #ff6a00;
   font-size: large;
   box-shadow: 0 1rem 1.5rem rgba(84, 84, 84, 0.4);
+  padding: 0.6rem 1.6rem;
+  transition: all .2s;cursor: pointer;
+    animation: pulsate 1s infinite;
+    }
+    
+    
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    box-shadow: none;
+  }
+
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.25);
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: none;
+  }
+}
+
+.paragraph:not(:last-of-type) {
+  margin-bottom: 2rem;
 }
 
 .button:hover {
-  background-color:#fff ;
-  color:#ff6a00 ;
+  background-color: #ff7a0e ;
+  color:#fff ;
+  transform: scale(1.06);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  
 }
 
 .hero-container {
-  background-image: linear-gradient(to right bottom, #fbf2e9, #ff6a00);
+  background-image: linear-gradient(to right bottom,#ff6a00, #fbf2e9 );
   height: 600px;
   margin: 0;
+  padding: 2.56rem;
+  padding-top: 5.6rem;
 }
 
 h1 {
   margin: 0;
 
+}
+
+.ul{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  gap: 3rem;
+  padding: 0 25rem;
+  
+}
+
+.list {
+  list-style-type: none;
+  display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+  
+  
+}
+
+.svg-correct {
+  margin-right: 1.6rem;
+  fill: #001d42;
+
+}
+
+.hero-header {
+  color: var(--color-grey-dark-2);
+    display: flex;
+    justify-content: center;
+}
+
+.hero-p {
+  
+    color: #fbf2e9;
+    line-height: 0.5;
+    font-size: 1.6rem;
+    padding: 2.56rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+   
+    
+}
+
+.hero-btn {
+    border: none;
+    font-family: inherit;
+    border-radius: 20px;
+    color: #001d42;
+    font-size: large;
+    padding: 0.6rem 1.6rem;
+    display: flex;
+    justify-content: center;
+    padding: 2.56rem;
+}
+
+.slogans{
+  margin-top: 1.6rem;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ padding-bottom: 1.6rem;
+ 
 }
