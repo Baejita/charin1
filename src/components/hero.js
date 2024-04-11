@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 const slogans = [
   "ชัดเจน",
@@ -8,6 +8,10 @@ const slogans = [
 ];
 
 function Hero() {
+  const [toggleContact, setToggleContact] = useState(false);
+  function handleToggleContact() {
+    setToggleContact(!toggleContact);
+  }
   return (
     <div>
       <div className="hero-container ">
@@ -18,18 +22,39 @@ function Hero() {
           แจ้งปัญหา/รับเรื่องร้องเรียน
         </h1>
         <div className="hero-p">
-          <p>ประชาชนในพื้นที่ อ.บางปะหัน ท่าเรือ มหาราช บ้านแพรก และนครหลวง</p>
+          <p>
+            ประชาชนในพื้นที่{" "}
+            <span className="province-hero">
+              อ.บางปะหัน ท่าเรือ มหาราช บ้านแพรก และนครหลวง
+            </span>
+          </p>
           <br />
           <p>
             หากพบเจอปัญหาในพื้นที่ และมีประเด็นอะไรสามารถเข้ามาร่วมพูดคุยกันได้
           </p>
         </div>
         <div>
-          <div className="hero-btn">
-            <button type="button" className="btn button">
-              ช่องทางติดต่อ
-            </button>
-          </div>
+          {toggleContact ? (
+            <div className="hero-btn-toclose">
+              <button
+                type="button"
+                className="btn button"
+                onClick={() => handleToggleContact({})}
+              >
+                ปิดหน้าต่าง
+              </button>
+            </div>
+          ) : (
+            <div className="hero-btn">
+              <button
+                type="button"
+                className="btn button"
+                onClick={() => handleToggleContact({})}
+              >
+                ช่องทางติดต่อ
+              </button>
+            </div>
+          )}
         </div>
         <div className="slogans-">
           <ul className="ul">
@@ -39,12 +64,33 @@ function Hero() {
             <Svg key={4}>{slogans[3]}</Svg>
           </ul>
         </div>
+        {toggleContact ? <ToggleV1 close={handleToggleContact} /> : null}
       </div>
     </div>
   );
 }
 
 export default Hero;
+
+function ToggleV1({ close }) {
+  const [closeToggle, setCloseToggle] = useState(true);
+  function handleCloseToggle() {
+    setCloseToggle(!closeToggle);
+    console.log("close");
+  }
+
+  return (
+    <>
+      {closeToggle ? (
+        <div className="toggle-bg-black-contianer">
+          <div className="">
+            <h1>toggleContact</h1>
+          </div>
+        </div>
+      ) : null}
+    </>
+  );
+}
 
 function Svg({ children }) {
   return (

@@ -13,7 +13,9 @@ function Navbar() {
             <a href="#">แจ้งปัญหา/รับเรื่องร้องเรียน</a>
           </li>
           <li>
-            <a href="#">สมัครสมาชิกพรรค</a>
+            <a href="https://accounts.moveforwardparty.org/account/register">
+              สมัครสมาชิกพรรค
+            </a>
           </li>
           <li>
             <a href="#">อาสาก้าวไกลอยุธยา</a>

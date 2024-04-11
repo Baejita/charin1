@@ -66,7 +66,7 @@ margin: 0%;
 }
 h1{
   font-size: 6rem;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.2;
  
 
@@ -163,6 +163,7 @@ border-radius: 20px;
   margin: 0;
   padding: 2.56rem;
   padding-top: 5.6rem;
+  
 }
 
 h1 {
@@ -177,7 +178,7 @@ h1 {
   align-items: center;
   list-style-type: none;
   gap: 3rem;
-  padding: 0 25rem;
+  padding: 0 20%;
   
 }
 
@@ -192,6 +193,10 @@ h1 {
     padding:0;
   
   
+}
+
+.province-hero {
+  color: #001d42;
 }
 
 .svg-correct {
@@ -233,6 +238,27 @@ h1 {
     padding: 2.56rem;
 }
 
+.hero-btn-toclose {
+  
+  border: none;
+    font-family: inherit;
+    border-radius: 20px;
+    color: #001d42;
+    font-size: large;
+    padding: 0.6rem 1.6rem;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-top: 100px;
+  
+    padding: 2.56rem;
+    z-index: 1000;
+    position: absolute;
+    top: -10rem;
+    left: 2rem;
+   
+
+}
+
 .slogans{
   margin-top: 1.6rem;
   font-size: 1.6rem;
@@ -242,3 +268,19 @@ h1 {
  padding-bottom: 1.6rem;
  
 }
+
+.toggle-bg-black-contianer {
+  /* background-color: #171717; */
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(in hsl longer hue, rgb(96, 96, 96,0.6), rgb(55, 55, 55));
+
+}
+
