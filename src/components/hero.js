@@ -72,22 +72,16 @@ function Hero() {
 
 export default Hero;
 
-function ToggleV1({ close }) {
-  const [closeToggle, setCloseToggle] = useState(true);
-  function handleCloseToggle() {
-    setCloseToggle(!closeToggle);
-    console.log("close");
-  }
-
+function ToggleV1() {
   return (
     <>
-      {closeToggle ? (
-        <div className="toggle-bg-black-contianer">
-          <div className="">
-            <h1>toggleContact</h1>
-          </div>
+      (
+      <div className="toggle-bg-black-contianer">
+        <div className="">
+          <h1>toggleContact</h1>
         </div>
-      ) : null}
+      </div>
+      )
     </>
   );
 }
