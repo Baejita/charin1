@@ -1,9 +1,10 @@
 import React from "react";
+import CardContact from "./CardContact";
 
 function ToggleV1() {
   return (
     <div>
-      <h1>toggleContact</h1>
+      <CardContact />
     </div>
   );
 }

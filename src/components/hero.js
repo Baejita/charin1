@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-
+import CardContact from "./CardContact";
+import facebookIMG from "../img/รวมติดต่อ เฟส.png";
 const slogans = [
   "ชัดเจน",
   "เท่าเทียม",
@@ -77,8 +78,24 @@ function ToggleV1() {
     <>
       (
       <div className="toggle-bg-black-contianer">
-        <div className="">
-          <h1>toggleContact</h1>
+        <div className="card-container-ALL">
+          <CardContact
+            img={facebookIMG}
+            application="FACEBOOK"
+            applicationTH="แฟนเพจเฟสบุ๊ค"
+          />
+
+          <CardContact
+            img={facebookIMG}
+            application="LINE OA"
+            applicationTH="บัญชีไลน์ทางการ"
+          />
+
+          <CardContact
+            img={facebookIMG}
+            application="TikTok"
+            applicationTH="ติดตามทางติ๊กต๊อก"
+          />
         </div>
       </div>
       )
