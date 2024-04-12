@@ -111,9 +111,19 @@ h1{
 }
 
 .nav-links li a:hover {
-  color: #171717;
+  color: #fefefe;
+  background-color: #001d42;
+  padding: 0.6rem;
+  border-radius: 24px;
+  transform: scale(2);
+
+  }
+
+ 
+
+  
   /* Change color on hover */
-}
+
 
 .button {
   border: none; 
@@ -159,11 +169,24 @@ border-radius: 20px;
 
 .hero-container {
   background-image: linear-gradient(to right bottom,#ff6a00, #fbf2e9 );
-  height: 600px;
+  height: 156vh;
   margin: 0;
   padding: 2.56rem;
   padding-top: 5.6rem;
   
+}
+
+.hero-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img {
+  width: 100%vw;
+  height: 1500px;
+  margin-top: -25rem;
+
 }
 
 h1 {
@@ -280,14 +303,14 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient( rgba(255, 119, 0, 0.6), rgb(189, 91, 0));
+  background-image: linear-gradient( rgb(0, 48, 87,0.6), rgb(255, 124, 1));
   flex-direction: column;
 
 }
 
 .card-container {
-  width: 280px;
-  height: 400px;
+  width: 29rem;
+  height: 47rem;
   background-color: #f6f6f6;
   border-radius: 15px;
   display: flex;
@@ -295,6 +318,7 @@ h1 {
     align-items: center;
     flex-direction: column;
     gap: 1rem;
+   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.25);;
 }
 
 .card-container-ALL {
@@ -303,15 +327,32 @@ h1 {
   gap: 10rem;
 }
 
-.card-big-img-and-bgColor{
+.card-container:hover{
+  box-shadow: 0 1rem 4rem rgba(98, 16, 0, 0.7);
+  transform: scale(1.2);
+  transition: all 0.4s;
+}
+
+.card-big-img-and-bgColor-bg-color-face{
   width: 85%;
-  background-color: rgb(0, 140, 255);
+  background-color: rgb(221, 0, 255);
   height: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 12px;
 }
+
+.card-big-img-and-bgColor-bg-color-orange {
+  width: 85%;
+  background-color: #ff7f00;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+
 
 .card-img {
   width: 85% ;
@@ -320,9 +361,27 @@ h1 {
   
 }
 
-h2.card {
+h2.card-face {
   font-size: 3rem;
   background-image: linear-gradient(to right bottom, rgb(0, 162, 255), rgb(0, 98, 179));
+  color: #f6f6f6;
+  width: 100%;
+  padding-left: 1.8rem;
+  font-weight: 400;
+}
+
+h2.card-Line {
+  font-size: 3rem;
+  background-image: linear-gradient(to right bottom, rgb(17, 188, 4), rgb(0, 117, 33));
+  color: #f6f6f6;
+  width: 100%;
+  padding-left: 1.8rem;
+  font-weight: 400;
+}
+
+h2.card-tiktok {
+  font-size: 3rem;
+  background-image: linear-gradient(to right bottom, rgb(255, 0, 111), rgb(2, 238, 255));
   color: #f6f6f6;
   width: 100%;
   padding-left: 1.8rem;
@@ -342,7 +401,7 @@ h3.card {
 }
 
 .card-btn {
-  font-size: 1rem;
+  font-size: 1.6rem;
   
 }
 
@@ -364,3 +423,8 @@ h3.card {
       padding-left: 1.8rem;
       font-weight: 400;
 }
+
+.link-non-underline {
+  text-decoration: none;
+}
+

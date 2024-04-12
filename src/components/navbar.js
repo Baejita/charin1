@@ -10,7 +10,7 @@ function Navbar() {
         </div>
         <ul className="nav-links">
           <li>
-            <a href="#">แจ้งปัญหา/รับเรื่องร้องเรียน</a>
+            <a href="https://lin.ee/7U79MeF">แจ้งปัญหา/รับเรื่องร้องเรียน</a>
           </li>
           <li>
             <a href="https://accounts.moveforwardparty.org/account/register">

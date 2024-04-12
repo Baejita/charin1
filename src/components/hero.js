@@ -3,12 +3,15 @@ import CardContact from "./CardContact";
 import LINE from "../img/Line.jpg";
 import FACE from "../img/Facebook.jpg";
 import TIKTOK from "../img/tiktok.jpg";
+import heroImage from "../img/Hero.png";
 const slogans = [
   "ชัดเจน",
   "เท่าเทียม",
   "ตรงไปตรงมา",
   "ภาษีประชาชนเพื่อประชาชน",
 ];
+
+const styleApp = ["card-face", "card-Line", "card-tiktok"];
 
 function Hero() {
   const [toggleContact, setToggleContact] = useState(false);
@@ -68,13 +71,20 @@ function Hero() {
           </ul>
         </div>
         {toggleContact ? <ToggleV1 close={handleToggleContact} /> : null}
+        <div className="hero-img-container">
+          <img className="hero-img" src={heroImage} alt="hero-img-pooh"></img>
+        </div>
       </div>
     </div>
   );
 }
 
 export default Hero;
-
+const link = [
+  "https://www.facebook.com/profile.php?id=100089996004006",
+  "https://lin.ee/7U79MeF",
+  "https://www.tiktok.com/@poohmfp?_t=8lQoABEA7YA&_r=1",
+];
 function ToggleV1() {
   return (
     <>
@@ -84,19 +94,25 @@ function ToggleV1() {
           <CardContact
             img={FACE}
             application="FACEBOOK"
-            applicationTH="แฟนเพจเฟสบุ๊ค"
+            applicationTH="เฟสบุ๊คแฟนเพจ"
+            styleApp={styleApp[0]}
+            naviLink={link[0]}
           />
 
           <CardContact
             img={LINE}
             application="LINE OA"
             applicationTH="บัญชีไลน์ทางการ"
+            styleApp={styleApp[1]}
+            naviLink={link[1]}
           />
 
           <CardContact
             img={TIKTOK}
             application="TikTok"
             applicationTH="ติดตามทางติ๊กต๊อก"
+            styleApp={styleApp[2]}
+            naviLink={link[2]}
           />
         </div>
       </div>
