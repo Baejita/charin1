@@ -9,7 +9,7 @@ grey dark : rgb(65,65,65)
 white : rgb(255, 255, 255)
 */
 
-@import url(https://db.onlinewebfonts.com/c/a1e66a1c5503a31b2481bc976979f6a2?family=Anakotmai+Medium);
+
 
 @font-face {
   font-family: "Anakotmai Medium";
@@ -32,6 +32,8 @@ div {
 } */
 
 /* App.css */
+@import url(https://db.onlinewebfonts.com/c/a1e66a1c5503a31b2481bc976979f6a2?family=Anakotmai+Medium);
+
 *,
 *::before,
 *::after {
@@ -43,7 +45,7 @@ div {
 html {
   box-sizing: border-box;
   font-size: 62.5%; 
-  font-family: "Anakotmai Medium";
+  font-family: 'Prompt';
   margin: 0;
   padding: 0;
   
@@ -135,6 +137,7 @@ border-radius: 20px;
   padding: 0.6rem 1.6rem;
   transition: all .2s;cursor: pointer;
     animation: pulsate 1s infinite;
+    
     }
     
     
@@ -162,8 +165,11 @@ border-radius: 20px;
 .button:hover {
   background-color: #ff7a0e ;
   color:#fff ;
-  transform: scale(1.06);
+  /* transform: scale(1.06); */
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: translateY(50px);
+    
+      
   
 }
 
@@ -329,8 +335,22 @@ h1 {
 
 .card-container:hover{
   box-shadow: 0 1rem 4rem rgba(98, 16, 0, 0.7);
+  transform: translateY(-30px);
+  background-image:linear-gradient(to left bottom, rgb(0, 85, 122), rgb(146, 204, 255),rgb(255, 255, 255)) ;  
   transform: scale(1.2);
   transition: all 0.4s;
+}
+
+
+
+.card-container h3:hover {
+ 
+  
+  /* background-image: linear-gradient(to bottom, rgb(0, 103, 69), rgb(0, 0, 0)); */
+  background-color: #001d42;
+  font-weight: 600;
+  transition: all 0.4s;
+
 }
 
 .card-big-img-and-bgColor-bg-color-face{
