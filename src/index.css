@@ -428,3 +428,58 @@ h3.card {
   text-decoration: none;
 }
 
+.img-profile {
+ 
+  height: 200px;
+  
+  
+}
+.img.img-profile {
+  box-shadow: 0 10px 10px black;
+}
+
+.container-attitude {
+  display:  flex;
+ 
+  
+  margin-bottom: 50px;
+  padding: 0;
+  background-color: #001d42;
+  font-size: 1.5rem;
+  box-shadow: 5px 10px 30px rgba(23, 23, 23, 0.6);
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-attitude:hover {
+  transform: scale(1.2);
+  transition: cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 0.3s ease-in-out;
+  /* background-color: #001240; */
+  background-image: linear-gradient(to bottom, #001240, #013481);
+  box-shadow: 0 5px 30px rgb(0, 37, 149);
+}
+
+.container-attitude--p {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #ff6a00;
+}
+
+.double-quote {
+  font-size: 10rem;
+  font-weight: 400;
+  color:#ff6a00;
+  padding: 0;
+  margin: -70px;
+}
+
+.padingTop {
+  padding-top: 2rem;
+}
