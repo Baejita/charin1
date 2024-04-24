@@ -158,6 +158,7 @@ border-radius: 20px;
   }
 }
 
+
 .paragraph:not(:last-of-type) {
   margin-bottom: 2rem;
 }
@@ -460,8 +461,6 @@ h3.card {
 
 .container-attitude {
   display:  flex;
- 
-  
   margin-bottom: 50px;
   padding: 0;
   background-color: #001d42;
@@ -502,4 +501,80 @@ h3.card {
 
 .padingTop {
   padding-top: 2rem;
+}
+
+.subScribe-container {
+  background-color: #f0f1f1;
+  padding: 3rem;
+  border-radius: 12px;
+  display: flex;
+  box-shadow: 0 5px 30px rgb(0, 37, 149);
+  transition: all .2s;
+    
+
+}
+@keyframes goRight {
+  0% {
+    transform: translateX(10rem);
+    box-shadow: none;
+  }
+
+  50% {
+    transform: translateX(1px);
+    box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.25);
+  }
+
+  100% {
+    transform: translateX(0);
+    box-shadow: none;
+  }
+}
+
+.subScribe-container-text{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10rem;
+  padding-top: 10rem;
+  gap: 2rem;
+  text-decoration: none;
+}
+
+.img-subScribe {
+  width: 500px;
+  border-radius: 12px;
+}
+
+.img-subScribe:hover{
+ transform: scale(1.2);
+transition: cubic-bezier(0.19, 1, 0.22, 1);
+transform: translateY(-6rem);
+  transition: all 0.3s ease-out;
+}
+
+.subScribe-container-text-header{
+  font-size: 6rem;
+  font-weight: 600;
+  margin-bottom: -4rem;
+    background: linear-gradient(to right,#001240,
+      #0073ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subScribe-container-text-header-orange {
+  background: linear-gradient(to right, #ff6a00,
+        #ff9f19);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subScribe-container-text-p {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #7c7c7c;
+  margin-top: 2rem;
+}
+
+.a-text-decoration-none{
+  text-decoration: none;
 }

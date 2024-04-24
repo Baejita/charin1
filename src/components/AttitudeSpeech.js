@@ -39,7 +39,7 @@ function AttitudeSpeech() {
     <>
       <div className="container">
         {dataSpeech.map((e) => (
-          <div className="container-attitude">
+          <div className="container-attitude" key={e.name}>
             <div>
               <img src={e.img} alt="profileImage" className="img-profile"></img>
             </div>
