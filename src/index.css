@@ -514,7 +514,8 @@ h3.card {
   display: flex;
   box-shadow: 0 5px 30px rgb(0, 37, 149);
   transition: all .2s;
-    
+  margin: 12rem 0;  
+  justify-content: space-around;
 
 }
 @keyframes goRight {
@@ -569,6 +570,7 @@ h3.card {
 .subScribe-container-text{
   display: flex;
   flex-direction: column;
+  
   padding-left: 8rem;
   padding-top: 10rem;
   gap: 2rem;
@@ -578,6 +580,18 @@ h3.card {
 .img-subScribe {
   width: 500px;
   border-radius: 12px;
+  margin-left: 10rem;
+}
+
+.img-RSA {
+  width: 750px;
+  border-radius: 12px;
+  /* margin-left: 10rem; */
+  /* position: relative;
+  top: -65rem;
+  right: -86rem; */
+  margin-top: -20rem;
+  padding-left: -10rem;
 }
 
 .img-subScribe:hover{
@@ -586,6 +600,14 @@ transition: cubic-bezier(0.19, 1, 0.22, 1);
 transform: translateY(-6rem);
   transition: all 0.3s ease-out;
 }
+
+.img-RSA:hover {
+  transform: scale(1.2);
+  transition: cubic-bezier(0.19, 1, 0.22, 1);
+  transform: translateY(-6rem);
+  transition: all 0.3s ease-out;
+}
+
 
 .subScribe-container-text-header{
   font-size: 6rem;
@@ -613,4 +635,12 @@ transform: translateY(-6rem);
 
 .a-text-decoration-none{
   text-decoration: none;
+}
+
+.footer-contianer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.2rem;
+  gap: 1rem;
 }
