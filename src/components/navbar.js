@@ -25,7 +25,7 @@ function Navbar() {
           </li>
         </ul>
         <div>
-          <button className="button" type="charin">
+          <button className="button-charin" type="charin">
             สส.ชริน วงศ์พันธ์เที่ยง
           </button>
         </div>

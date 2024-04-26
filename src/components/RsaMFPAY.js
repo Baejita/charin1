@@ -9,7 +9,7 @@ function SuscribePtim() {
         className="a-text-decoration-none"
       >
         <div className="subScribe-container">
-          <div className="subScribe-container-text">
+          <div className="subScribe-container-text-Rsa">
             <h2 className="subScribe-container-text-header">
               เพราะเราเชื่อในพลังของการให้
             </h2>

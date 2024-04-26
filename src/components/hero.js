@@ -71,7 +71,7 @@ function Hero() {
           </ul>
         </div>
         {toggleContact ? <ToggleV1 close={handleToggleContact} /> : null}
-        <div className="hero-img-container">
+        <div className="hero-img-container ">
           <img className="hero-img" src={heroImage} alt="hero-img-pooh"></img>
         </div>
       </div>

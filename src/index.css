@@ -9,6 +9,9 @@ grey dark : rgb(65,65,65)
 white : rgb(255, 255, 255)
 */
 
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
 
 
 @font-face {
@@ -64,7 +67,7 @@ margin: 0%;
   min-height: 100vh;
   background-color: rgb(235, 235, 235);
   
-  padding: 0 80px;
+  padding: 0 19rem;
 }
 h1{
   font-size: 6rem;
@@ -92,6 +95,52 @@ h1{
   color: #fff;
   font-size: 1.6rem;
   
+}
+
+
+@media screen and (max-width:1200px) {
+  .navbar {
+    background-color: blueviolet;
+    font-size: small;
+    display: none;
+  }
+  .button-charin {
+    font-size: smaller;
+    background-color: #0073ff;
+    display: none;
+  }
+  .hero-header{
+    font-size: 5.6rem;
+  }
+
+    .slogans- {
+      background-color: #0073ff;
+     display: none
+    }
+
+         .subScribe-container {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+         }
+
+  .subScribe-container-text {
+    margin-left: -5rem;
+    margin-top: -5rem ;
+    
+  }
+.img-subScribe {
+  display: flex;
+    margin-bottom: -5rem;
+}
+
+.img-RSA {
+  background-color: #001d42;
+  
+}
+
+
+
 }
 
 .navbar-logo img {
@@ -140,7 +189,18 @@ border-radius: 20px;
     
     }
     
-    
+        .button-charin{
+          border: none;
+            font-family: inherit;
+            border-radius: 20px;
+            color: #ff6a00;
+            font-size: large;
+            box-shadow: 0 1rem 1.5rem rgba(84, 84, 84, 0.4);
+            padding: 0.6rem 1.6rem;
+            transition: all .2s;
+            cursor: pointer;
+            animation: pulsate 1s infinite;
+        }
 @keyframes pulsate {
   0% {
     transform: scale(1);
@@ -192,7 +252,7 @@ border-radius: 20px;
 .hero-img {
   width: 100%vw;
   height: 1500px;
-  margin-top: -25rem;
+  margin-top: -22rem;
 
 }
 
@@ -517,7 +577,7 @@ h3.card {
   transition: all .2s;
   margin: 12rem 0;  
   justify-content: space-around;
-
+  margin-bottom: 16rem;
 }
 @keyframes goRight {
   0% {
@@ -572,26 +632,35 @@ h3.card {
   display: flex;
   flex-direction: column;
   
-  padding-left: 8rem;
+  padding-left: 6rem;
   padding-top: 10rem;
   gap: 2rem;
   text-decoration: none;
 }
 
+ .subScribe-container-text-Rsa{
+display: flex;
+  flex-direction: column;
+
+  padding-left: 6rem;
+  padding-top: 10rem;
+  gap: 2rem;
+  text-decoration: none;
+ }
 .img-subScribe {
-  width: 500px;
+  width: 50rem;
   border-radius: 12px;
   margin-left: 10rem;
 }
 
 .img-RSA {
-  width: 750px;
+  width: 560px;
   border-radius: 12px;
   /* margin-left: 10rem; */
   /* position: relative;
   top: -65rem;
   right: -86rem; */
-  margin-top: -20rem;
+  margin-top: -16rem;
   padding-left: -10rem;
 }
 
@@ -611,7 +680,7 @@ transform: translateY(-6rem);
 
 
 .subScribe-container-text-header{
-  font-size: 5.6rem;
+  font-size: 3.6rem;
   font-weight: 600;
   margin-bottom: -4rem;
     background: linear-gradient(to right,#001240,
@@ -646,7 +715,11 @@ transform: translateY(-6rem);
   flex-direction: column;
   font-size: 1.2rem;
   gap: 1rem;
-  background-color: #d4d4d4;
+  background-color: #e4e4e4;
+  margin: 0;
+  width: 100vw;
+  margin-left: -19rem;
+  
 }
 
 .MFP{
@@ -664,7 +737,7 @@ transform: translateY(-6rem);
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
+  color: #636363;
   margin-bottom: -1rem;
 }
 
@@ -704,13 +777,15 @@ a{
   display: flex;
   justify-content: center;
   gap: 1rem;
-  color: #7c7c7c;
+  color: #001d42;
   padding-top: 1rem;
 }
 
 .footer-bg-last {
   width: 100vw;
   height: 2.6rem;
-  background-color: #ff6a00;
+  background-color: #001d42;
 }
+
+
 
