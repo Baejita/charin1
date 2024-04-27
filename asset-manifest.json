@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/charin1.github.io/static/css/main.48f70b6c.css",
-    "main.js": "/charin1.github.io/static/js/main.99dc0e84.js",
-    "static/media/Subscribe-PTim.png": "/charin1.github.io/static/media/Subscribe-PTim.24bd6572d2dd83d559f0.png",
-    "static/media/Rsa.png": "/charin1.github.io/static/media/Rsa.90b3a717e87f00d64317.png",
-    "static/media/Hero.png": "/charin1.github.io/static/media/Hero.a3ddfbf1ea45ad45b451.png",
-    "static/media/LogoOrange.png": "/charin1.github.io/static/media/LogoOrange.d8e9bca21578e0257d99.png",
-    "static/media/Facebook.jpg": "/charin1.github.io/static/media/Facebook.67eea1b90a0d40e9a4b4.jpg",
-    "static/media/Pooh-attitude-speech.png": "/charin1.github.io/static/media/Pooh-attitude-speech.e1a933db0f669fdd2d8b.png",
-    "static/media/Weerayut-attitude-speech.png": "/charin1.github.io/static/media/Weerayut-attitude-speech.75defc4efcf6c8f77b87.png",
-    "static/media/Parnlada-attitude-speech.png": "/charin1.github.io/static/media/Parnlada-attitude-speech.3c575fd4313c922729f0.png",
-    "static/media/Line.jpg": "/charin1.github.io/static/media/Line.e338a663992788dde535.jpg",
-    "static/media/tiktok.jpg": "/charin1.github.io/static/media/tiktok.c32dbe1bc9c11f4009b2.jpg",
-    "static/media/logoMFPWhite.png": "/charin1.github.io/static/media/logoMFPWhite.66ba5fe9bd6e040a33ec.png",
-    "static/media/Wassapong-attitude-speech.png": "/charin1.github.io/static/media/Wassapong-attitude-speech.8dbe692f758326d44205.png",
-    "index.html": "/charin1.github.io/index.html",
-    "main.48f70b6c.css.map": "/charin1.github.io/static/css/main.48f70b6c.css.map",
-    "main.99dc0e84.js.map": "/charin1.github.io/static/js/main.99dc0e84.js.map"
+    "main.css": "/charin1/static/css/main.48f70b6c.css",
+    "main.js": "/charin1/static/js/main.146c0471.js",
+    "static/media/Subscribe-PTim.png": "/charin1/static/media/Subscribe-PTim.24bd6572d2dd83d559f0.png",
+    "static/media/Rsa.png": "/charin1/static/media/Rsa.90b3a717e87f00d64317.png",
+    "static/media/Hero.png": "/charin1/static/media/Hero.a3ddfbf1ea45ad45b451.png",
+    "static/media/LogoOrange.png": "/charin1/static/media/LogoOrange.d8e9bca21578e0257d99.png",
+    "static/media/Facebook.jpg": "/charin1/static/media/Facebook.67eea1b90a0d40e9a4b4.jpg",
+    "static/media/Pooh-attitude-speech.png": "/charin1/static/media/Pooh-attitude-speech.e1a933db0f669fdd2d8b.png",
+    "static/media/Weerayut-attitude-speech.png": "/charin1/static/media/Weerayut-attitude-speech.75defc4efcf6c8f77b87.png",
+    "static/media/Parnlada-attitude-speech.png": "/charin1/static/media/Parnlada-attitude-speech.3c575fd4313c922729f0.png",
+    "static/media/Line.jpg": "/charin1/static/media/Line.e338a663992788dde535.jpg",
+    "static/media/tiktok.jpg": "/charin1/static/media/tiktok.c32dbe1bc9c11f4009b2.jpg",
+    "static/media/logoMFPWhite.png": "/charin1/static/media/logoMFPWhite.66ba5fe9bd6e040a33ec.png",
+    "static/media/Wassapong-attitude-speech.png": "/charin1/static/media/Wassapong-attitude-speech.8dbe692f758326d44205.png",
+    "index.html": "/charin1/index.html",
+    "main.48f70b6c.css.map": "/charin1/static/css/main.48f70b6c.css.map",
+    "main.146c0471.js.map": "/charin1/static/js/main.146c0471.js.map"
   },
   "entrypoints": [
     "static/css/main.48f70b6c.css",
-    "static/js/main.99dc0e84.js"
+    "static/js/main.146c0471.js"
   ]
 }
