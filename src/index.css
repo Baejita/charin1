@@ -98,84 +98,6 @@ h1{
 }
 
 
-@media screen and (max-width:1200px) {
-  body {
-    padding: 0 14rem;
-  }
-  .navbar {
- 
-    font-size: medium;
-    /* display: none; */
-  }
-  .button-charin {
-    font-size: smaller;
-    background-color: #0073ff;
-    display: none;
-  }
-  .hero-header{
-    font-size: 5.6rem;
-  }
-
-    .slogans- {
-      background-color: #0073ff;
-     display: none
-    }
-
-  .subScribe-container {
-           display: block;
-           flex-direction: column;
-           align-items: center;
-         }
-
-  .subScribe-container-text {
-    margin-left: -5rem;
-    margin-top: -5rem ;
-    
-  }
-.img-subScribe {
-  display: flex;
-    margin-bottom: -5rem;
-}
-
-
-.img-RSA {
-  width: 36vW;
-    border-radius: 12px;
-    /* margin-left: 10rem; */
-    /* position: relative;
-    top: -65rem;
-    right: -86rem; */
-    padding-top: 15rem;
-    padding-left: 5rem;
-}
-}
-
-@media screen and (max-width:950px) {
-  body {
-    padding: 0 9rem;
-  }
-
-  .navbar {
-
-    font-size: small;
-    /* display: none; */
-  }
-
-  .button-charin {
-    font-size: smaller;
-    background-color: #0073ff;
-    display: none;
-  }
-
-  .hero-header {
-    font-size: 4rem;
-
-  }
-  .hero-img{
-    width: 200rem;
-    
-  }
-}
 
 
 
@@ -429,8 +351,9 @@ h1 {
   justify-content: center;
   align-items: center;
   background-image: linear-gradient( rgb(0, 48, 87,0.6), rgb(255, 124, 1));
-  flex-direction: column;
-
+  
+    
+  
 }
 
 .card-container {
@@ -585,7 +508,7 @@ h3.card {
   margin-bottom: 50px;
   padding: 0;
   background-color: #001d42;
-  font-size: 1.5rem;
+  font-size: 3.5rem;
   box-shadow: 5px 10px 30px rgba(23, 23, 23, 0.6);
 
 }
@@ -624,6 +547,10 @@ h3.card {
   padding-top: 2rem;
 }
 
+
+.container {
+  margin-top: -50rem;
+}
 .subScribe-container {
   background-color: #f0f1f1;
   padding: 3rem;
@@ -919,8 +846,121 @@ margin-bottom: -29.2rem;
 
 }
 
+@media screen and (max-width:1200px) {
+  body {
+    padding: 0 14rem;
+  }
 
-@media screen and (max-width:560px) {
+  .navbar {
+
+    font-size: medium;
+    /* display: none; */
+  }
+.container-attitude{
+  font-size: 2.5rem;
+}
+  .button-charin {
+    font-size: smaller;
+    background-color: #0073ff;
+    display: none;
+  }
+
+  .hero-header {
+    font-size: 5.6rem;
+  }
+
+  .slogans- {
+    background-color: #0073ff;
+    display: none
+  }
+
+  .subScribe-container {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .subScribe-container-text {
+    margin-left: -5rem;
+    margin-top: -5rem;
+
+  }
+
+  .img-subScribe {
+    display: flex;
+    margin-bottom: -5rem;
+  }
+
+
+  .img-RSA {
+    width: 36vW;
+    border-radius: 12px;
+    /* margin-left: 10rem; */
+    /* position: relative;
+    top: -65rem;
+    right: -86rem; */
+    padding-top: 15rem;
+    padding-left: 5rem;
+  }
+
+    .container {
+      margin-top: -90rem;
+    }
+.subScribe-container{
+  display: flex;
+        padding: 6rem 6rem;
+        justify-content: center;}
+}
+
+@media screen and (max-width:950px) {
+  body {
+    padding: 0 9rem;
+  }
+
+  .navbar {
+
+    font-size: small;
+    /* display: none; */
+  }
+
+    .container-attitude {
+      font-size: 2.3rem;
+    }
+  .button-charin {
+    font-size: smaller;
+    background-color: #0073ff;
+    display: none;
+  }
+
+  .hero-header {
+    font-size: 4rem;
+
+  }
+
+    .hero-img {
+      width: 80%;
+      height: 80%;
+      margin-top: -9.2rem;
+  
+    }
+.container{
+  margin-top: -110rem;
+}
+
+.subScribe-container {
+  display: flex;
+  padding: 4rem 6rem;
+  justify-content: center;
+}
+
+.subScribe-container-text {
+  padding-top: 10rem;}
+
+}
+
+
+@media screen and (max-width:850px) {
   body {
     padding: 0;
 
@@ -966,12 +1006,13 @@ margin-bottom: -29.2rem;
   }
 
   .subScribe-container-text {
-    padding-top: 6rem;
+    padding-top: 10rem;
 
   }
 
   .subScribe-container {
     margin: 2rem 0;
+    
   }
 
   .province-hero {
@@ -1046,13 +1087,15 @@ margin-bottom: -29.2rem;
 .img-subScribe{
   width: 60vw;
 }
-
+.container-attitude {
+  font-size: 1.5rem;
+}
   .img-RSA {
     width: 80vW;
   }
     .subScribe-container-text-header{
       line-height: 2;
-      font-size: 3rem;
+      font-size: 2rem;
     }
 
   .subScribe-container-text-Rsa {
@@ -1060,7 +1103,8 @@ margin-bottom: -29.2rem;
   }
 
   .subScribe-container-text {
-    padding-top: 6rem;
+    padding-top: 10rem;
+    
 
   }
 
