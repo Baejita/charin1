@@ -25,11 +25,7 @@ function SuscribePtim() {
 
             <div>
               <a href="https://accounts.moveforwardparty.org/account/register">
-                <button
-                  href="https://whereisthemouse.com"
-                  className="button"
-                  naviLink="www.google.com"
-                >
+                <button href="https://whereisthemouse.com" className="button">
                   ดูเพิ่มเติม
                 </button>
               </a>

@@ -1,16 +1,15 @@
 import React, { useState } from "react";
 // const styleApp = ["card-face", "card-Line", "card-tiktok"];
-function CardContact({ img, styleApp, application, applicationTH, naviLink }) {
+function CardContact({ img, styleApp, application, applicationTH, navLink }) {
   const [contact, setContact] = useState(false);
 
   function handleClickContact() {
     setContact(!contact);
-    console.log(contact);
   }
 
   return (
     <>
-      <a href={naviLink} className="link-non-underline">
+      <a href={navLink} className="link-non-underline">
         <div className="card-container">
           <div className="card-big-img-and-bgColor-bg-color-orange">
             <div className="card-bgColor"></div>

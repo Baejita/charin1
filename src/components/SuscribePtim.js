@@ -34,7 +34,7 @@ function SuscribePtim() {
                 <button
                   href="https://whereisthemouse.com"
                   className="button"
-                  naviLink="www.google.com"
+                  navLink="www.google.com"
                 >
                   สมัครสมาชิก
                 </button>

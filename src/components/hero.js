@@ -96,7 +96,7 @@ function ToggleV1() {
             application="FACEBOOK"
             applicationTH="เฟสบุ๊คแฟนเพจ"
             styleApp={styleApp[0]}
-            naviLink={link[0]}
+            navLink={link[0]}
           />
 
           <CardContact
@@ -104,7 +104,7 @@ function ToggleV1() {
             application="LINE OA"
             applicationTH="บัญชีไลน์ทางการ"
             styleApp={styleApp[1]}
-            naviLink={link[1]}
+            navLink={link[1]}
           />
 
           <CardContact
@@ -112,7 +112,7 @@ function ToggleV1() {
             application="TikTok"
             applicationTH="ติดตามทางติ๊กต๊อก"
             styleApp={styleApp[2]}
-            naviLink={link[2]}
+            navLink={link[2]}
           />
         </div>
       </div>
