@@ -99,10 +99,13 @@ h1{
 
 
 @media screen and (max-width:1200px) {
+  body {
+    padding: 0 14rem;
+  }
   .navbar {
-    background-color: blueviolet;
-    font-size: small;
-    display: none;
+ 
+    font-size: medium;
+    /* display: none; */
   }
   .button-charin {
     font-size: smaller;
@@ -118,8 +121,8 @@ h1{
      display: none
     }
 
-         .subScribe-container {
-           display: flex;
+  .subScribe-container {
+           display: block;
            flex-direction: column;
            align-items: center;
          }
@@ -134,14 +137,64 @@ h1{
     margin-bottom: -5rem;
 }
 
+
 .img-RSA {
-  background-color: #001d42;
-  
+  width: 36vW;
+    border-radius: 12px;
+    /* margin-left: 10rem; */
+    /* position: relative;
+    top: -65rem;
+    right: -86rem; */
+    padding-top: 15rem;
+    padding-left: 5rem;
+}
+}
+
+@media screen and (max-width:950px) {
+  body {
+    padding: 0 9rem;
+  }
+
+  .navbar {
+
+    font-size: small;
+    /* display: none; */
+  }
+
+  .button-charin {
+    font-size: smaller;
+    background-color: #0073ff;
+    display: none;
+  }
+
+  .hero-header {
+    font-size: 4rem;
+
+  }
+  .hero-img{
+    width: 200rem;
+    
+  }
 }
 
 
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .navbar-logo img {
   width: 50px;
@@ -250,7 +303,7 @@ border-radius: 20px;
 }
 
 .hero-img {
-  width: 100%vw;
+  
   height: 1500px;
   margin-top: -22rem;
 
@@ -396,8 +449,11 @@ h1 {
 .card-container-ALL {
   display: flex;
   flex-direction: row;
-  gap: 10rem;
+  gap: 2rem;
+  margin-top: 0rem;
 }
+
+
 
 .card-container:hover{
   box-shadow: 0 1rem 4rem rgba(98, 16, 0, 0.7);
@@ -632,7 +688,7 @@ h3.card {
   display: flex;
   flex-direction: column;
   
-  padding-left: 6rem;
+  padding-left: 4rem;
   padding-top: 10rem;
   gap: 2rem;
   text-decoration: none;
@@ -648,13 +704,14 @@ display: flex;
   text-decoration: none;
  }
 .img-subScribe {
-  width: 50rem;
+  width:36vw;
   border-radius: 12px;
-  margin-left: 10rem;
+  margin-bottom: 1rem;
+  
 }
 
 .img-RSA {
-  width: 560px;
+  width: 36vW;
   border-radius: 12px;
   /* margin-left: 10rem; */
   /* position: relative;
@@ -671,12 +728,12 @@ transform: translateY(-6rem);
   transition: all 0.3s ease-out;
 }
 
-.img-RSA:hover {
+/* .img-RSA:hover {
   transform: scale(1.2);
   transition: cubic-bezier(0.19, 1, 0.22, 1);
   transform: translateY(-6rem);
   transition: all 0.3s ease-out;
-}
+} */
 
 
 .subScribe-container-text-header{
@@ -707,6 +764,11 @@ transform: translateY(-6rem);
   text-decoration: none;
 }
 
+.subScribe-container-Rsa {
+  display: flex;
+  justify-content: end;
+}
+
 .footer-contianer {
   padding-top: 6rem;
   display: flex;
@@ -717,9 +779,8 @@ transform: translateY(-6rem);
   gap: 1rem;
   background-color: #e4e4e4;
   margin: 0;
-  width: 100vw;
-  margin-left: -19rem;
-  
+  /* width: 100vw;
+  margin-left: -19rem; */
 }
 
 .MFP{
@@ -789,3 +850,152 @@ a{
 
 
 
+@media screen and (max-width:760px) {
+  body {
+    padding: 0;
+
+  }
+
+  .navbar {
+
+    font-size: small;
+    /* display: none; */
+  }
+
+  .button-charin {
+    font-size: smaller;
+    background-color: #0073ff;
+    display: none;
+  }
+
+  .hero-header {
+    font-size: 4rem;
+  }
+
+  .card-container-ALL {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .toggle-bg-black-contianer{
+    height: 240vh;
+  }
+
+    .hero-img {
+      width: 80%;
+      height: 100%;
+      margin-top: -9.2rem;
+      
+    }
+.hero-container{
+margin-bottom: -29.2rem;
+}
+    .img-RSA{
+      width: 80vW;
+    }
+
+        .subScribe-container-text-Rsa{
+          padding: 0;
+        }
+
+  .subScribe-container-text {
+      padding-top: 6rem;
+
+                    }
+
+  .subScribe-container {
+    margin:2rem 0 ;
+  }
+
+     .province-hero{
+      line-height: 1.6;
+    }
+.double-quote {
+  margin: -50px;
+}
+
+}
+
+
+@media screen and (max-width:560px) {
+  body {
+    padding: 0;
+
+  }
+
+  .navbar {
+
+    font-size: small;
+    /* display: none; */
+  }
+
+  .button-charin {
+    font-size: smaller;
+    background-color: #0073ff;
+    display: none;
+  }
+
+  .hero-header {
+    font-size: 4rem;
+  }
+
+  .card-container-ALL {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .toggle-bg-black-contianer {
+    height: 240vh;
+  }
+
+  .hero-img {
+    width: 80%;
+    height: 80%;
+    margin-top: -9.2rem;
+  }
+
+  .img-RSA {
+    width: 80vW;
+  }
+
+  .subScribe-container-text-Rsa {
+    padding: 0;
+  }
+
+  .subScribe-container-text {
+    padding-top: 6rem;
+
+  }
+
+  .subScribe-container {
+    margin: 2rem 0;
+  }
+
+  .province-hero {
+    line-height: 1.6;
+  }
+
+  .double-quote {
+    margin: -10px;
+    font-size: 5rem;
+  }
+.container-attitude{
+  flex-direction: column;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+.container-attitude--p{
+  padding-top: 0.6rem;
+}
+.contianer-img-profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.hero-container{
+  height: fit-content;
+}
+}
