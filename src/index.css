@@ -878,7 +878,7 @@ a{
   }
 
   .toggle-bg-black-contianer{
-    height: 240vh;
+    height: 180vh;
   }
 
     .hero-img {
@@ -906,6 +906,9 @@ margin-bottom: -29.2rem;
   .subScribe-container {
     margin:2rem 0 ;
   }
+    .container{
+      margin-top: -65rem;
+    }
 
      .province-hero{
       line-height: 1.6;
@@ -926,7 +929,7 @@ margin-bottom: -29.2rem;
   .navbar {
 
     font-size: small;
-    /* display: none; */
+    display: none;
   }
 
   .button-charin {
@@ -936,7 +939,7 @@ margin-bottom: -29.2rem;
   }
 
   .hero-header {
-    font-size: 4rem;
+    font-size: 3.2rem;
   }
 
   .card-container-ALL {
@@ -945,7 +948,7 @@ margin-bottom: -29.2rem;
   }
 
   .toggle-bg-black-contianer {
-    height: 240vh;
+    height: 160vh;
   }
 
   .hero-img {
@@ -998,4 +1001,100 @@ margin-bottom: -29.2rem;
 .hero-container{
   height: fit-content;
 }
+
+ .container {
+   margin-top: -20rem;
+ }
+}
+
+@media screen and (max-width:480px) {
+  body {
+    padding: 0;
+
+  }
+
+  .navbar {
+
+    font-size: small;
+    display: none;
+  }
+
+  .button-charin {
+    font-size: smaller;
+    background-color: #0073ff;
+    display: none;
+  }
+
+  .hero-header {
+    font-size: 3.2rem;
+  }
+
+  .card-container-ALL {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+  .toggle-bg-black-contianer {
+    height: 160vh;
+  }
+
+  .hero-img {
+    width: 120%;
+    height: 80%;
+    margin-top: -6.2rem;
+  }
+.img-subScribe{
+  width: 60vw;
+}
+
+  .img-RSA {
+    width: 80vW;
+  }
+    .subScribe-container-text-header{
+      line-height: 2;
+      font-size: 3rem;
+    }
+
+  .subScribe-container-text-Rsa {
+    padding: 0;
+  }
+
+  .subScribe-container-text {
+    padding-top: 6rem;
+
+  }
+
+  .subScribe-container {
+    margin: 2rem 0;
+  }
+
+  .province-hero {
+    line-height: 1.6;
+  }
+
+  .double-quote {
+    margin: -10px;
+    font-size: 5rem;
+  }
+
+  .container-attitude {
+    flex-direction: column;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+  }
+
+  .container-attitude--p {
+    padding-top: 0.6rem;
+  }
+
+  .contianer-img-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .hero-container {
+    height: fit-content;
+  }
 }
